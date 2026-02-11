@@ -1,30 +1,33 @@
 # 🏫 My School Website
 
-This is a simple and attractive **My School Website** created using **HTML5** and **CSS3**.  
-The website includes important details about the school such as introduction, history, vision & mission, facilities, and other school-related information.
+A simple and attractive **School Website** created using **HTML5** and **CSS3**.  
+This website provides important information about the school such as introduction, history, vision & mission, facilities, and other school-related details.
 
-## 🚀 Features
-- School introduction section
-- School history and details
-- Vision & Mission section
-- Facilities information
-- Clean and simple UI design
-- Easy navigation
+---
+
+## ✨ Features
+- 📌 School Introduction Section  
+- 📖 School History & Overview  
+- 🎯 Vision and Mission  
+- 🏢 Facilities Information  
+- 🧑‍🏫 Staff / Teachers Details (if included)  
+- 🎨 Clean and User-Friendly UI Design  
+- 📱 Responsive Layout (if supported)
+
+---
 
 ## 🛠️ Technologies Used
-- HTML5
-- CSS3
+- **HTML5**
+- **CSS3**
+
+---
 
 ## 📂 Project Purpose
-This project was created to improve my web development skills and practice building a complete website layout using only HTML and CSS.
+This project was created to improve my web development skills and gain practical experience in building a complete website using only HTML and CSS.
 
-## 📸 Screenshots
-(Add your website screenshots here)
+---
 
-## 📌 How to Run
-1. Download or clone this repository
-2. Open the `index.html` file in your browser
-
-## 👨‍💻 Author
-- **Dhanushka**
-
+## 🚀 How to Run the Project
+1. Download or clone this repository  
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
