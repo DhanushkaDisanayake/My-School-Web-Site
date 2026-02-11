@@ -1,0 +1,283 @@
+.main{
+    font-style: bold;
+    font-size: 56px;
+    padding: 20px;
+    background-color: rgb(163, 28, 28);
+    text-align: center;
+    color: rgb(224, 228, 30);
+    left: 0;
+}
+
+.baje_container{
+    text-align: center;
+}
+
+.baje_container img{
+    width: 300px;
+}
+
+.welcome{
+    font-size: 36px;
+    text-align: center;
+    color: rgb(26, 26, 161);
+    font-weight: bold;
+    margin: 70px;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding-top: 80px;
+}
+
+.topic{
+    font-size: 24px;
+    padding: 10px;
+    background-color: rgb(158, 8, 8);
+    text-align: center;
+    color: rgb(224, 228, 30);
+    margin: 30px;
+}
+
+.vision_mission_topic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.vision_mission{
+    display: grid;
+    grid-template-columns: repeat(2,1fr 4fr 1fr);
+    align-items: center;
+    margin: 30px;
+}
+
+.vision_mission_text{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    background-color: rgb(180, 192, 214);
+    padding: 20px;
+    border: 20px;
+}
+
+.img01{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.img_row{
+    width: 100%;
+    height: 100%;
+}
+
+.margin{
+    margin: 70px;
+}
+
+.history{
+    margin: 40px;
+    font-weight: bold;
+}
+
+.img02{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 10px;
+    margin-bottom: 70px;
+}
+
+.grid01{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    background-color: rgb(165, 17, 17);
+    text-align: center;
+    color: rgb(224, 228, 30);
+    margin: 30px;
+}
+
+.grid02{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) 3fr 1fr 2fr 1fr 2fr 1fr;
+    background-color: rgb(3, 9, 97);
+    text-align: left;
+    color: rgb(224, 228, 30);
+    margin: 0px;
+    font-size: 17px;
+    align-items: center;
+}
+
+.result_count{
+    font-size: 56px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.result_name{
+    font-size: 12px;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: rgb(10, 23, 207);
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(224, 228, 30);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: rgb(224, 228, 30);
+}
+
+.footer_links p a{
+    border: 20%;
+    margin: 20%;
+    color: white;
+    width: 100%;
+}
+
+.footer_paragraph{
+    color: white;
+    font-size: 14px;
+}
+
+.footer_img{
+    margin: 10px;
+    width: 140px;
+    text-align: center;
+}
+
+/* -------------------------------------------- about us ----------------------------------------*/
+
+.grid_principal_message{
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.message_title{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.message{
+    font-size: 13px;
+    text-indent: 50px;
+    line-height: 24px;
+}
+
+.saing{
+    margin-top: 20px;
+    font-weight: bold;
+    text-indent: 0%;
+    line-height: 10px;
+    border: 0px;
+}
+
+.grid_deputy_principals{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    text-align: center;
+}
+
+h3{
+    font-size: 15px;
+    
+}
+
+h4{
+    font-size: 14px;
+}
+
+.container_card{
+    background-image: url("../img/bg_img.jpg");
+    background-color: #bdb7b8;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);;
+}
+
+.grid_assistant_principals{
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    border: 40px;
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.grid_name{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-size: 13px;
+    line-height: 29px;
+}
+
+/* --------------------------------------contact--------------------------------- */
+
+.contact_content{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    align-items: center;
+}
+
+.contact_topic{
+    font-size: 22px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    color: blue;
+}
+
+.contact_fact{
+    font-size: 12px;
+}
+
+.contact_fact p a{
+    font-size: 12px;
+}
+
+.contact_social p a{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
